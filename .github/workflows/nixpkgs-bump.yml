@@ -34,8 +34,8 @@ jobs:
         if: steps.bump.outcome == 'success'
         run: |
           set -e
-          git config --global user.name 'Mrn1's Github Actions'
-          git config --global user.email 'actions@mrn1'
+          git config --global user.name 'Chaotic Github Actions'
+          git config --global user.email 'actions@chaotic.cx'
           git add flake.lock
           git commit -m "nixpkgs: bump to $(date +%Y%m%d)"
           git push
