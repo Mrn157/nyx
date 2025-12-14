@@ -44,8 +44,8 @@ jobs:
       - name: Bat-signal
         run: |
           set -e
-          git config --global user.name 'Chaotic Github Actions'
-          git config --global user.email 'actions@chaotic.cx'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       # the bump itself
       - name: Wiggle, wiggle, wiggle
         id: build
