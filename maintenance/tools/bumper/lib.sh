@@ -1,9 +1,9 @@
-function checkout() {
-  git checkout -b "$NYX_BRANCH"
-  git fetch origin
-  git reset --hard origin/main
-  return 0
-}
+# function checkout() {
+#  git checkout -b "$NYX_BRANCH"
+#  git fetch origin
+#  git reset --hard origin/main
+#  return 0
+# }
 
 function bump-flake() {
   nix flake update
@@ -47,9 +47,9 @@ function bump-package() {
   return 0
 }
 
-function push() {
-  git push origin "$NYX_BRANCH" -u
-}
+# function push() {
+#   git push origin "$NYX_BRANCH" -u
+# }
 
 function create-pr() {
   gh pr create -B main -H "$NYX_BRANCH" \
