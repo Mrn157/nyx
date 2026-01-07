@@ -1,3 +1,7 @@
+Also checkout my other nyx fork:
+
+For CachyOS Kernel Only (With Caches): https://github.com/Mrn157/CachyNix
+
 <h1>Chaotic's Nyx</h1>
 
 <img alt="Six frogs with capes, aligned like the NixOS logo, with intercalated shades of green" src="https://gist.githubusercontent.com/PedroHLC/f6eaa9dfcf190e18b753e98fd265c8d3/raw/nix-frog-with-capes-web.svg" width="35%" /><br/>
